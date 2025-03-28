@@ -1,0 +1,214 @@
+body
+{
+     /* background-color: #1F2039; */
+    background-image: url("images/c15.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+    margin: 0;
+
+     /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: "Tektur", sans-serif;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.banner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background-color: #ccff33;
+    color: rgba(19, 42, 19, 0.9);
+    font-size: 25px;
+    font-weight: bold;
+
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom-right-radius: 20px;
+
+    padding-top: 20px;
+    width: 30%;
+}
+
+h1
+{
+
+
+    color: #f5f5f5;
+    text-align: center;
+    font-size: 8em;
+    font-style: normal;
+
+    width: fit-content;
+    margin: auto;
+    /* margin-bottom: 10%; */
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+
+    text-shadow: 7px 4px 1px #9C2579;
+}
+
+h2
+{
+    /* background-color: yellow; */
+    text-align: center;
+    /* color: #132a13; */
+    color: rgba(19, 42, 19, 0.9);
+    font-size: 2em;
+
+
+    width: fit-content;
+    padding: 0.3%;
+}
+
+ol, ul
+{
+    font-size: 1.3em;
+}
+
+
+p
+{
+    font-size: 1.3em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: deeppink;
+    text-decoration: underline;
+}
+
+/* a:visited {
+    color: white;
+} */
+
+img:hover {
+    opacity: 0.5;
+}
+
+strong {
+    font-weight: 800;
+}
+
+footer {
+    background-color: #faedcd;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.student_name
+{
+    color:violet
+}
+
+.credits
+{
+    font-style: italic;
+    color:#243010;
+}
+
+.demo-border{
+    border: 10px solid #ccff33;
+    background-color: #ccff33;
+    border-radius: 40px;
+    /* box-shadow: 6px 6px 15px black; */
+    box-shadow: 5px 5px 0px 0px rgba(181,181,181,0.59);
+    padding: 2px 10px 2px 10px;
+    font-weight: 900;
+    margin-top: 100px;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    /* flex-flow: row wrap */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.luckiest-guy-regular {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.pong-border {
+    border: 2px solid purple;
+    border-radius: 200px;
+    /* width: 30%; */
+    width: 500px;
+    /* height: 300px; */
+    height: 15em;
+}
+
+.second-bg {
+    background-color: #faedcd;
+    border: 1px solid #faedcd;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+    color: #243010;
+    width: 100vw;
+    position: relative;
+    left: calc(-50vw + 50%);
+
+    /* min-height: 100vh; */
+    min-height: 100%;
+    margin-top: 50px;
+}
+
+.register-button {
+    padding: 10px 70px 10px 70px;
+    border: 2px solid purple;
+    background-color: #ccff33;
+    border-radius: 10px;
+    box-shadow: 7px 4px 1px #9C2579;
+}
+
+.register-button:hover {
+    opacity: 0.5;
+}
+
+.play-image {
+    position: relative;
+}
+
+.play-button {
+    width: 100px;
+}
+
+.play-image .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #ccff33;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 200px;
+    opacity: 0.9;
+  }
