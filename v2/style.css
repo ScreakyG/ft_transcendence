@@ -95,6 +95,9 @@ nav {
     flex-direction: column;
     justify-content: center;
     /* gap: 50px; */
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 30px;
 }
 
 .presentation-box h1 {
@@ -181,4 +184,8 @@ input {
 
 label {
     margin: 10px;
+}
+
+.presentation-box a {
+    width: fit-content;
 }

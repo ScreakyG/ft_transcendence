@@ -9,13 +9,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <script src="main.js" defer></script>
+    <script src="router.js" defer></script>
 </head>
 <body class="press-start-2p-regular">
     <div class="main-background"></div>
     <div class="purple-gradient"></div>
     <header>
         <nav>
-            <img class="home-button" src="images/joueur.png" width="150px">
+            <img class="home-button" src="images/ponglogo.png" width="200px">
             <a href="index.html" class="cta">SIGN UP</a>
         </nav>
     </header>
@@ -23,18 +24,19 @@
         <div class="main-box">
             <div class="nav-box">
                 <a href="index.html" class="parallelogram">HOME</a>
-                <a href="index.html" class="parallelogram">LEADERBOARD</a>
+                <a id="dashboard" href="/dashboard" class="parallelogram">DASHBOARD</a>
                 <a href="index.html" class="parallelogram">HELP</a>
                 <a href="index.html" class="parallelogram">SETTINGS</a>
             </div>
             <div class="presentation-box">
+                <!-- <div id="app"></div> -->
                 <h1>WELCOME TO PROJECT TRANSCENDENCE</h1>
                 <p>Transcendence is the last 42 school project blablablabla blabla blablab.</p>
-                <a href="index.html">
-                <div class="play-button-box">
-                    PLAY
-                    <img src="images/ping-pong-racket-svgrepo-com.svg" width="100px">
-                </div>
+                <a href="/game">
+                    <div id="play-button" class="play-button-box">
+                        PLAY
+                        <img src="images/ping-pong-racket-svgrepo-com.svg" width="100px">
+                    </div>
                 </a>
             </div>
         </div>
